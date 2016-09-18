@@ -17,4 +17,7 @@
 	.submit{
 		padding: 0 20px;
 	}
+	.wrap_car{
+		background-attachment: scroll;
+	}
 }
