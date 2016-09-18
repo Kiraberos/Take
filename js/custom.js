@@ -36,7 +36,7 @@
 				'email'      : c_email,
 			};
 
-			if (( c_email == '' || c_message == '') || (!isValidEmailAddress(c_email) )) {
+			if (( c_email == '') || (!isValidEmailAddress(c_email) )) {
 				response.fadeIn(500);
 				response.html('<i class="fa fa-warning"></i> Please fix the errors and try again.');
 			}

@@ -62,11 +62,13 @@ a{
 	font-size: 0.875em;
 	font-weight: 700;
 	line-height: 24px;
+	white-space: nowrap;
 	-webkit-transition: all .5s ease-out;
 	-moz-transition: all .5s ease-out;
 	-ms-transition: all .5s ease-out;
 	-o-transition: all .5s ease-out;
 		transition: all .5s ease-out;
+	
 }
 a:hover{
 	color: #fff;
@@ -211,7 +213,7 @@ a:hover{
 	font-size: 1.2em;
 }
 .car_inf{
-	padding-top: 420px;
+	margin: 420px 0 100px 0;
 }
 /* Block after car */
 .block_six{

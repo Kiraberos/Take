@@ -13,3 +13,8 @@
 		margin: 0;
 	}
 }
+@media (max-width: 366px) {
+	.submit{
+		padding: 0 20px;
+	}
+}
